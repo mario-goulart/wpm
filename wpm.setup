@@ -1,0 +1,7 @@
+;;; wpm.setup -*- scheme -*-
+
+(compile -M -O3 -d1 wpm.scm -o wpm)
+
+(install-program 'wpm
+                 '("wpm")
+                 `((version "0.0.1")))

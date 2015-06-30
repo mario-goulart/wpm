@@ -1,0 +1,6 @@
+;; -*- scheme -*-
+((synopsis "A command line application for rapid serial visual presentation")
+ (author "Mario Domenech Goulart")
+ (category tools)
+ (license "BSD")
+ (depends ansi-escape-sequences slice utf8))
